@@ -5,6 +5,10 @@ import CalcResult from './calcResult.js';
 var result = 0;
 
 function App() {
+  function testFunction(){
+    console.log("reacts")
+  }
+
   return (
     <div className="App">
       <Calculator />
